@@ -1,0 +1,109 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.header {
+  background-color: #0099ff;
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+.header h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  padding: 1.5rem;
+  color: white;
+}
+
+#form-container {
+  margin-left: 21rem;
+}
+#form-container #btn-filtrar {
+  background-color: #0099ff;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.table-container {
+  width: 50%;
+  margin: 2rem auto;
+}
+.table-container .table {
+  font-family: "Quicksand", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-container .table th {
+  text-align: left;
+  padding: 8px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0099ff;
+  color: white;
+}
+.table-container .table td {
+  text-align: left;
+  padding: 8px;
+}
+.table-container .table td button {
+  background-color: #0099ff;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.new-user-container {
+  margin-left: 21rem;
+}
+.new-user-container #btn-new-user {
+  background-color: #0099ff;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.autor {
+  text-align: center;
+  margin-top: 8rem;
+}
+.autor p {
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/*# sourceMappingURL=styleindex.css.map */

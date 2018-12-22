@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/stylesnew.css">
+    <title>Editar Usuario</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Nuevo Usuario</h2>
+    </div>  
+    <div class="input-container">
+        
+        <label class="label" for="">Nombre</label> 
+        <input type="text" maxlength="30" id="name-input" placeholder="Tu nombre"><br>
+
+        <label class="label" for="">Apellido</label>
+        <input type="text" maxlength="30" id="last-name-input" placeholder="Tu apellido"><br>
+
+        <label class="label" for="">Teléfono</label>
+        <input type="number" id="telephone-input" placeholder="Telefono"><br>
+
+        <label class="label" for="">DNI</label>
+        <input type="number" id="dni-input" placeholder="DNI"><br>
+
+        <label class="label" for="">Email</label>
+        <input type="text" id="email-input" placeholder="Email"><br>
+        <button id="btn-save">Guardar</button>
+        <span><button id="btn-atras">Atras</button></span>
+    </div>
+    <!--Modal-->
+    <div class="modal">
+        <div class="modal-container">
+            <p id="insertar-texto"></p>
+        </div>
+    </div>
+    <div class="autor">
+        <p>Diseñado por: Stefanny Fracica</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="/javascripts/new.js"></script>
+</body>
+</html>
